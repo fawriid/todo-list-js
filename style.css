@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: rgba(6, 44, 94, 0.541);
+}
+
+#title-container {
+  margin-top: 6rem;
+  text-align: center;
+}
+#title-container h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-shadow: 5px 5px 15px rgb(51, 51, 51);
+}
+#add-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem auto 6rem;
+}
+#add-container i{
+    font-size: 2.5rem;
+    color: rgb(37, 37, 37);
+}
+#add-container div:nth-child(2) {
+  margin-right: 12rem;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 20px;
+  background-color: #f7f7f7c0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  height: 55px;
+  width: 600px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+#add-container button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 1.9rem;
+}
+
+#add-container div:nth-child(1) {
+  margin-right: 7rem;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 15px;
+  background-color: #f7f7f7c0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  height: 20px;
+  width: 200px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+#add-container select {
+  border: 0;
+  background-color: transparent;
+  offset: none;
+  outline: none;
+  height: 25px;
+  font-size: 2rem;
+  width: 100%;
+  cursor: pointer;
+}
+/* #add-container option {
+  width: 300px;
+  margin-top: 2rem;
+} */
+#add-container input {
+  border: 0;
+  background-color: transparent;
+  offset: none;
+  outline: none;
+  height: 35px;
+  font-size: 2rem;
+  width: 93%;
+  margin-left: 1rem;
+}
+#todos-container {
+  display: flex;
+  justify-content: center;
+}
+#todos {
+  margin-right: 18rem;
+  font-size: 3.3rem;
+  text-align: left;
+  list-style: none;
+}
+#todos .fas {
+  font-size: 3rem;
+}
+#tick {
+  color: rgb(12, 248, 12);
+}
+#trash {
+  color: red;
+}
+
+#todos div {
+  margin-top: 2rem;
+}
+#todos div span {
+  margin-right: 1rem;
+}
+
+i {
+  cursor: pointer;
+}

@@ -13,8 +13,41 @@
 
 <body>
 
+    <div id="title-container">
+        <h1>TO-DO LIST</h1>
+        <p>created by fawriid</p>
+    </div>
+
+    <div id="add-container">
+        <div>
+            <select name="" id="filter">
+                <option value="all">all</option>
+                <option value="completed">completed</option>
+                <option value="un-completed">un-completed</option>
+            </select>
+        </div>
+        <div>
+            <button><i class="fas fa-plus"></i></button>
+            <input type="text" id="user-todo">
+        </div>
+    </div>
+
+
+    <div id="todos-container">
+        <ul id="todos">
+            <li>
+                <div>
+                    <span><i id="trash" class="fas fa-trash"></i></span>
+                    <span><i id="tick" class="fas fa-check-square"></i></span>
+                    <span>work</span>
+                </div>
+            </li>
+        </ul>
+    </div>
 
     <script src="/main.js"></script>
 </body>
 
 </html>
+
+
