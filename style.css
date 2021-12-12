@@ -19,7 +19,7 @@ body {
 #title-container h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
-  text-shadow: 5px 5px 15px rgb(51, 51, 51);
+  text-shadow: 3px 2px 4px rgba(34, 8, 8, 0.712);
 }
 #add-container {
   display: flex;
@@ -49,6 +49,18 @@ body {
   background-color: transparent;
   outline: none;
   font-size: 1.9rem;
+  border-radius: 10px;
+  transition: all 200ms linear;
+  padding: 1rem;
+}
+.fa-plus {
+  transition: all 200ms linear;
+}
+#add-container button:hover {
+  background-color: rgb(95, 192, 95);
+}
+#add-container button:hover .fa-plus {
+  color: white;
 }
 
 #add-container div:nth-child(1) {
@@ -98,18 +110,36 @@ body {
   font-size: 3.3rem;
   text-align: left;
   list-style: none;
+  min-width: 30%;
+  margin: 0 auto;
+  padding-left: 2.7rem;
 }
+.todoschild {
+  transition: all 200ms linear;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 1rem ;
+}
+
 #todos .fas {
   font-size: 3rem;
 }
-#tick {
+.tick {
   color: rgb(12, 248, 12);
+  transition: all 200ms liner;
 }
-#trash {
+.tick:hover {
+  transform: scale(1.1);
+}
+.trash {
   color: red;
+  transition: all 200ms liner;
+}
+.trash:hover {
+  transform: scale(1.1);
 }
 
-#todos div {
+#todos li {
   margin-top: 2rem;
 }
 #todos div span {
